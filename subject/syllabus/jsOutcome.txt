@@ -1,0 +1,6 @@
+• Build dynamic web pages
+• Display alert boxes
+• Write messages to the Browser status bar
+• Control browser features
+• Validate information in forms
+• Create interactive forms

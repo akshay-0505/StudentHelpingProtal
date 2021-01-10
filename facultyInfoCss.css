@@ -1,0 +1,22 @@
+ul.Cources{
+	color: red;
+	font-family: Arial Rounded MT Bold;
+	text-align: left;
+
+}
+div.info{
+	text-align: left;
+	font-family: Arial Rounded MT Bold;
+}
+img
+{
+	align-content: left;
+	width: 100px;
+	height: 100px;
+	
+}
+body
+{
+	background-color: black;
+	color:white;
+}

@@ -1,0 +1,12 @@
+• Design and implement classes and methods
+• Understand and implement basic programming constructs
+• Apply object oriented features to real time entities
+• Differentiate between primitive data types and class data types and implement
+conversion between them.
+• Understand and implement the concept of reusability and extensibility
+• Create packages and interfaces and used it in programs
+• Design and implement multithreaded programs
+• Manage errors and exceptions
+• Design and implement applet and graphics programming
+• Make use of Data streams in programs
+• Write programs by combining all features of Java

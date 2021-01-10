@@ -1,0 +1,6 @@
+• Become familiar with the standard Software Engineering Practices.
+• Know Project management concepts Planning ,estimation ,Scheduling and tracking
+• Apply design concepts and to build design
+• Software Quality assurance
+• Apply project management and analysis principles to S/W project development.
+• Apply design & testing principles to S/W project development.

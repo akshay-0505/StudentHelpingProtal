@@ -1,0 +1,107 @@
+ul
+{
+	margin:0px;
+	padding:0px;
+}
+#images{
+			
+			top:333px;
+			left: 170px;
+			position: absolute;
+			border: 2px solid red;
+			width: 73%;
+	}
+ul li
+{
+	float:left;
+	text-align:center;
+	width:250px;
+	font-size:20px;
+	font-family:Verdana;
+	line-height:40px;
+	background-color:#400040;
+	color:white;
+	border:3px solid white;
+	list-style:none;
+	position: relative;
+
+}
+ul:hover.schemesList
+{
+	left: 250px;
+	top:0%;
+	display:inline-block;
+}
+ul li:hover ul, ul li.over ul {
+	display:block;
+}
+ul li:hover ul ul, ul li.over ul ul {
+	display:none;
+}
+ul ul li:hover ul, ul ul li.over ul {
+	display:block;
+	left: 250px;
+	position: absolute;
+	top:0%;
+	
+}
+
+li.dropRight
+{
+	right:0px;
+}
+ul li a:hover
+{
+	background-color:#400040;
+	color:#ffffff;
+}
+ul li ul li a:visited
+{
+	color:#ff80c0;
+	background-color:transparent;
+}
+ul li ul li a:link
+{
+	color:#ffff00;
+	background-color:transparent;
+}
+ul li ul li
+{
+	display:none;
+}
+ul li:hover ul li
+{
+	display:block;
+	
+}
+ul li:hover 
+{
+	background-color:#000080;
+}
+body{
+	background-image:url("free-wallpapers-education-educational.png");
+	background-size:1480px 650px;
+	background-repeat:no-repeat;
+	
+}
+div#header,div#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color:#ffff00;background-color:#400040;margin-bottom:5px;
+}
+/*div#transform{
+    width: 100px;
+    height: 100px;
+    background: grey;
+    background-image:url("life.jpg");
+    -webkit-transition: width 2s, height 4s; /* Safari */
+    transition: width 2s, height 4s;
+} 
+div#transform:hover
+{
+	width:500px;
+	heigth:800px;
+}

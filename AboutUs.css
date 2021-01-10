@@ -1,0 +1,53 @@
+div.floatBox1{
+	float:left;
+	border:3px solid black;
+	padding:20px;
+	heigth:50%;
+}
+div.floatBox2{
+	float:Right;
+	border:3px solid black;
+	padding:20px;
+	heigth:50%;
+}
+h3
+{
+	color:#80ff00;
+}
+p
+{
+	color:#00ffff;
+	text-align:center;
+}
+u
+{
+	color:#ffff00;
+}
+h4{
+	color:#ff0000;
+	font-family:verdana;
+}
+h2{
+	color:white;
+}
+a
+{
+	color:white;
+}
+legend
+{
+	color:blue;
+}
+body{
+	background-image:url("cxZpvov.jpg");
+	background-size:1480px 900px;
+	background-repeat:no-repeat;
+}
+div#header,div#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color:#ffff00;background-color:#400040;margin-bottom:5px;
+}

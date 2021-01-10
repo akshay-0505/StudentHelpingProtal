@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+body{
+    background-image: url('cool_nature-t2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button1 {
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+   
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+</style>
+<script type="text/javascript">
+	function change1(addr) {
+		parent.frame2.location.href=addr;
+	}
+    function change2(addr) {
+        parent.frame2.location.href=addr;
+        parent.frame3.location.href="subject\\jsp.html";
+    }
+</script>
+</head>
+<body>
+
+<div class="abc">
+<button class="button button2" style="float: left;left: 200px;" onclick="change1('thirdyear_FirstSem.html')">First Semester</button>
+<button class="button button2" style="float: right;right: 200px;" onclick="change2('ThirdYearSecSem.html')">Second Semester</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<html>
+<head>
+
+	<link href="homePageStyle.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript">
+		var arr=new Array('homeimg\\information-technology-wallpaper (1).jpg','homeimg\\information-technology-wallpaper (2).jpg','homeimg\\information-technology-wallpaper (3).jpg','homeimg\\information-technology-wallpaper (4).jpg','homeimg\\information-technology-wallpaper (5).jpg','homeimg\\information-technology-wallpaper (6).jpg','homeimg\\information-technology-wallpaper (7).jpg','homeimg\\information-technology-wallpaper.jpg')
+		var ind=0;
+		function chimg() {
+			// body...
+			if (document.images)
+	{ ind++
+				if (ind==arr.length) {
+					ind=1}
+				document.img1.src=arr[ind-1];
+			setTimeout('chimg()',3000)
+		} 
+		}
+	</script>
+</head>
+<body onload="chimg()">
+
+<h3 style="font-family:Verdana; font-size:48px;color: red;"><u><b><center>Student Helping Portal</center></b></u></h3>
+	<div>
+		<ul>
+			<li>HOME </li>
+			<li>Department
+			<ul>
+			<li><a href="comp_Dept.html">Computer Engineering</a></li>
+			<li><a href="#">Information Technology</a></li>
+			<li><a href="#">Electronic & TC</a></li>
+			<li><a href="#">Mechanical</a></li>
+			</ul></li>
+			<li>Log in
+				<ul>
+					<li><a href="StudentSignup.html">Student Login</a></li>
+					<li>Adminitration
+					<ul class="schemesList">
+					<li class="dropRight">Head Of Department</li>
+					<li class="dropRight">Lecturer Faculty</li>
+					</ul>
+					</li>
+					
+				</ul>
+			</li>
+			<li>Guest Login
+				<ul>
+					<li><a href="#">SIGN UP</a></li>
+					<li>Login</li>
+				</ul>
+			</li>
+			<li>ABOUT US
+			<ul>
+			<li><a href="aboutDevelopers.html">Contact Developers</a></li>
+			<li><a href="aboutWebsite.html">ABOUT WEBSITE</a></li>
+			</ul></li>
+		</ul>
+	</div>
+	
+	<div id="transform">
+	</div>
+<div id="footer">	
+<p><center>&copy; AY Production Group 2018. All rights reserved.</center></p>
+</div>
+</body>
+</html>

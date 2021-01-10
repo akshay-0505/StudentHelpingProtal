@@ -1,0 +1,7 @@
+After studying this course, the student will be able to
+• Install Windows Server 2008
+• Configure networking resources
+• Monitor network performance
+• Troubleshoot network faults
+• Manage disk quota
+• Implement backup and recovery strategy

@@ -1,0 +1,8 @@
+After studying this course, the student will be able to
+• Understand Setting up of a network.
+• Understand the use of Internet Protocol.
+• Configure Static as well as Dynamic IP Addresses .
+• Understand how World Wide Web is organized.
+• Explain and compare the different interconnecting systems throughout the world.
+• Understand various security and protection issues in the Networking
+Environment.

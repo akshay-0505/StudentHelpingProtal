@@ -1,0 +1,43 @@
+
+<html>
+<head>
+<script>
+</script>
+<title>
+Sudent Signup Form
+</title>
+<link href="imageStyle.css">
+<link href="styleStudentForm.css" rel="stylesheet">
+<script type="text/javascript" src="generateCaptch.js">
+</script>
+</head>
+<body onload="generateCaptcha()">
+	<div class="div0">
+		<div><img src="Webp.net-compress-image (9).jpg"></div>
+		<div><img src="timthumb.png"></div>
+	</div>
+	<div class="div1">
+		<img src="user.png" class="avtar">
+			<h2>Student SignUp</h2>
+		<form name="StudentLoginForm" id="StudentLogin1" onsubmit="return checkFormFilling()" action="homeMenuTab.html">
+			<h3>Enter Username</h3><input placeholder="Enter Username"type="text" id="StudentUName1" value="" name="StudentUserName" onmouseover="nullInput(this.value)"></input>
+			<h3>Create Password</h3><input type="password" placeholder="Enter Password" name="firstEnteredPass" id="pass1" onblur="checkLength(this.value)"></input>
+			<h3>Confirm Password</h3><input type="password" name="confirmedPass" placeholder="Confirm Password"id="pass2" onblur="confirmPassword()"></input>
+			<h3>Captcha Code:</h3><input type="text" class="capt" id="mainCaptcha"readonly="readonly" style="background-color:black color:white"> 
+            <input type="button"  value="Refresh" class="but"onclick="generateCaptcha();" /><br>
+            <h3>Reneter Captcha</h3><input type="text"class="capt" id="txtInput"/>   
+			<input type="submit" class="but" value="Submit" />
+		</form>
+	
+	</div>
+	<div class="div2">
+		<div><img src="images.jpg"></div>
+		<div><img src="1200px-The_C_Programming_Language_logo.svg.png"></div>
+	</div>
+	
+		<div class="footer">
+			<p><center>&copy; AY Production Group 2018. All rights reserved.</center></p>
+		</div>
+	
+</body>
+</html>

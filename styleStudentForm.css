@@ -1,0 +1,111 @@
+body {
+    font-family:Verdana,sans-serif;font-size:0.9em;
+}
+
+.footer{
+   position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: yellow;
+    text-align: center;
+}
+img
+{
+    width: 100%;
+    height: 50%;
+    border: 2px solid grey;
+}
+.div0
+ {
+    border: 2px solid black;
+    top:10%;
+    left:5%;
+    position: absolute;
+    width: 320px;
+    height: 520px;
+    background: #000;
+    color: #fff;
+ }
+.div1{
+    width: 320px;
+    height: 520px;
+    background: #000;
+    color: #fff;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    color: red;
+    padding: 40px 20px;
+}
+.div2
+ {
+    border: 2px solid black;
+    top:10%;
+    left:75%;
+    position: absolute;
+    width: 320px;
+    height: 520px;
+    background: #000;
+    color: #fff;
+ }
+h3
+{
+    line-height: 20px;
+    text-align: center;
+}
+input[type="text"] ,input[type="password"]
+{
+    width: 100%;
+}
+.div1 .capt
+{
+    width: 78%;
+}
+.div1 input[type="button"]{
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color:black;
+    height: 20px
+    font-size:20px;
+}
+.div1 input[type="button"]:hover{
+    background-color: #ffc107;
+    cursor: pointer;
+}
+
+input[type="button"]
+{
+float: right;
+}
+h2
+{
+    color: blue;
+    text-align: center;
+
+}
+
+.avtar
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: none;
+
+    position: absolute;
+    top: -50px;
+    left: 110px;
+    line-height: 20px;
+
+}
+body{
+	background-image:url("pattern_background_light_line_texture_50877_5000x3532.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+}

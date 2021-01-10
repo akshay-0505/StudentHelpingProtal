@@ -1,0 +1,67 @@
+h2.FacultyHeader 
+{
+	text-align: center;
+	font-family:Arial Rounded MT Bold;
+	font-size: 28px;
+	color:red;
+	background-color: black;
+}
+h3.FacultyHeader
+{
+	text-shadow: 20;
+	text-align: center;
+	color: red;
+	font-size: 26px;
+	font-family:Arial Rounded MT Bold;
+	background-color: black;
+	width: 100%;
+}
+.headerNL{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+body.b2{
+	background-color: black;
+}
+body.b1{
+	background-color: black;
+}
+h4.FacultyHeader
+{
+	text-shadow: 20;
+	text-align: center;
+	color: red;
+	font-size: 20px;
+	font-family:Arial Rounded MT Bold;
+	background-color: black;
+}
+ul
+{
+	display: inline-block;
+	background-color:black;
+	color: white;
+	border: 2px solid yellow;
+	line-height: 50px;
+	width: 100%;
+	list-style: none;
+	padding: 0px;
+	margin:0px;
+}
+ul li
+{
+	border: 2px solid black;
+	font-family: Arial Rounded MT Bold;
+	padding: 0px;
+	margin:0px;
+	text-align: center;
+}
+
+ul li:hover
+{
+	display: inline-block;
+	background-color: green;
+	width: 100%;
+	padding: 0px;
+	margin:0px;
+}
